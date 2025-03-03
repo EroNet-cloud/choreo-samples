@@ -6,8 +6,8 @@ def main():
     vhost = os.getenv("VHOST")
     host = os.getenv("HOST")
     password = os.getenv("PASSWORD")
-    queueName = "TestQueue"
-    exchange = 'choreo'
+    queueName = "SalesOrderQueue"
+    exchange = 'SalesOrderExchange'
 
     if (username != None and vhost != None and host != None and password != None):
 
